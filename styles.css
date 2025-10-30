@@ -48,82 +48,48 @@ body, .bio-content, .btn, .ult {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-<<<<<<< HEAD
     color: #000000;
     overflow-x: hidden;
     background-color: #1900ffec; 
     
-=======
-    background-color: #f4f4f9;
-    color: #000000;
-    overflow-x: hidden;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     
 }
 
 /* HEADER */
 .header {
-<<<<<<< HEAD
     color: #fff;
-=======
-    background-color: #1900ffec; /* Color rosa vibrante */
-    color: #fff;
-    padding: 1rem 0;
-    max-width: 100%;
-    
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     padding: 1rem 5%;
     align-self: center;
     
-=======
-    align-items: center;
-    padding: 1rem 2rem;
-    max-width: 100%;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .logo a {
     color: #fff;
     text-decoration: none;
-<<<<<<< HEAD
     font-size: 90%;
-=======
-    font-size: 1.8rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     font-weight: bold;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-<<<<<<< HEAD
     align-items: center;
-=======
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .nav-links li {
     margin: 0 1rem;
-<<<<<<< HEAD
     
-=======
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .nav-links a {
     color: #fff;
     text-decoration: none;
-<<<<<<< HEAD
     font-size: 110%;
-=======
-    font-size: 1.1rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     transition: color 0.3s;
 }
 
@@ -134,23 +100,13 @@ body {
 /* TÍTULO PRINCIPAL */
 /* Título principal del portafolio */
 .title-container {
-<<<<<<< HEAD
     text-align: center; 
     padding: 2%; 
-=======
-    text-align: center;
-    height: 90vh; 
-    padding: 4rem 0; 
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-<<<<<<< HEAD
     
-=======
-    max-width: 100%;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 /* Sombra de texto solo para las palabras "PORTAFOLIO" */
 .portfolio-word {
@@ -161,7 +117,6 @@ body {
     flex-direction: column; /* Los elementos hijos se apilan verticalmente */
     align-items: center; 
     line-height: 0.79; 
-<<<<<<< HEAD
     font-size: 600%; /* Ajusta el tamaño del texto según tus necesidades */
     font-weight: bold;
     color: #fff;
@@ -169,24 +124,11 @@ body {
     letter-spacing: 2%; 
     
     
-=======
-    font-size: 6rem; /* Ajusta el tamaño del texto según tus necesidades */
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 3px; 
-    max-width: 100%;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .main-title span {
     display: block; /* Cada palabra PORTAFOLIO será un "bloque" */
-<<<<<<< HEAD
 
-=======
-    width: 100%; 
-    text-align: center; 
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     
 }
 
@@ -195,26 +137,16 @@ body {
     justify-content: center; 
     align-items: center; 
     background-color: #fff; 
-<<<<<<< HEAD
     padding: 1.5rem 0; 
     border-radius: 10px; 
     margin-top: 10%; 
-=======
-    padding: 1rem 0; 
-    border-radius: 10px; 
-    margin-top: 5rem; 
-    overflow: hidden; 
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     width: 200%; 
 }
 
 .scroll-text {
     display: flex;
     animation: scroll 15s linear infinite; 
-<<<<<<< HEAD
     overflow: hidden;
-=======
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .sub-title span {
@@ -246,13 +178,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-=======
-    padding: 2rem 0;
-    text-align: center;
-    position: relative; /* Esto mantiene el contenedor de las imágenes relativo */
-    
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .hero-image {
@@ -260,15 +185,7 @@ body {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-<<<<<<< HEAD
     margin: 0 1%;
-=======
-    margin: 0 1rem;
-}
-
-.hero-image-left {
-    animation: float 3s ease-in-out infinite;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .hero-image-right {
@@ -282,7 +199,6 @@ body {
 }
 
 .bio-content {
-<<<<<<< HEAD
     overflow:hidden;
     display: flex;
 }
@@ -290,17 +206,6 @@ body {
 .bio-content h2 {
     font-size: 250%;
     margin-bottom: 1%;
-=======
-    max-width: 900px;
-    padding: 0 2rem;
-    overflow:hidden;
-    display: block;
-}
-
-.bio-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     display:flex;
     overflow:hidden;
     white-space:nowrap;
@@ -351,7 +256,6 @@ body {
 /* Contenedor para la bio y el video */
 .ult {
     display: flex;
-<<<<<<< HEAD
     padding: 2%;
     justify-content: space-between;
     gap: 1%;
@@ -363,105 +267,27 @@ body {
 
 .video-container video {
     width: 105%;
-=======
-    align-items: center;
-    padding: 2rem;
-    text-align: center;
-    justify-content: space-between;
-    gap: 10px;
-    margin-left: 120px;
-    margin-right: 120px;
-}
-
-/* Alineación de bio y video en fila en pantallas grandes */
-.video-container {
-    flex: 1; /* El video ocupa la mitad del espacio disponible */
-    max-width: 50%; /* Máximo 50% de la pantalla */
-}
-
-.bio-contenta {
-    flex: 1; /* El contenido de bio también ocupa el otro 50% */
-    max-width: 50%;
-    padding: 20px;
-}
-
-/* En pantallas pequeñas, cambia la disposición a columna */
-@media (max-width: 768px) {
-    .ult {
-        flex-direction: column; /* Cambia a columna */
-        padding: 0rem; /* Ajusta el padding solo en pantallas pequeñas */
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .bio-contenta {
-        order: 1;
-        margin-bottom: 1rem; /* Espacio entre la bio y el video */
-    }
-
-    .video-container {
-        order: 2;
-        margin-top: 1rem; /* Añadir un pequeño margen superior */
-    }
-    .video-container video {
-        width: 100%;
-        height: auto;
-    }
-    
-}
-
-.video-container video {
-    width: 80%;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     height: auto;
 }
 
 
 /* Alineación de bio en la página */
 .bio {
-<<<<<<< HEAD
     
     font-size: 150%;
     text-align: center;
     padding: 3%; 
 }
 
-=======
-    max-width: 900px; 
-    font-size: 25px;
-    text-align: center;
-    margin: 0 auto; /* Alinea al centro sin márgenes laterales */
-    padding: 10px; /* Reducido para más compacidad */
-}
-
-@media (max-width: 768px) {
-    .bio {
-        font-size: 1.1rem;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 8px;
-    }
-}
-
-
-/* CSS */
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 
 .projects-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px; 
-<<<<<<< HEAD
     padding: 10%;
     justify-content: center;
     margin-top: 0; /* Eliminamos el margen superior */
     
-=======
-    padding: 150px;
-    justify-content: center;
-    margin-top: 0; /* Eliminamos el margen superior */
-    padding-top: 4rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .project-button {
@@ -481,7 +307,6 @@ body {
     .projects-container {
         grid-template-columns: repeat(2, 1fr); /* 2 columnas para pantallas más pequeñas */
     }
-<<<<<<< HEAD
     .ult{
         flex-direction: column;
     }
@@ -515,9 +340,6 @@ body {
 }
 }
 
-=======
-}
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 
 @media (max-width: 768px) {
     .projects-container {
@@ -575,7 +397,6 @@ body {
 
 /* Sección de contacto */
 .contact {
-<<<<<<< HEAD
     padding: 10%;
     text-align: center;
     margin-top: -10%;
@@ -583,26 +404,13 @@ body {
 
 .contact h2 {
     font-size: 250%;
-=======
-    padding: 50px 20px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.contact h2 {
-    font-size: 2.5rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     color: #ffffff;
     margin-bottom: 20px;
     font-family: 'Gotham', sans-serif; /* Tipografía deseada */
 }
 
 .contact p {
-<<<<<<< HEAD
     font-size: 100%;
-=======
-    font-size: 1rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     color: #ffffff;
     margin-bottom: 20px;
     font-family: 'Gotham', sans-serif;
@@ -618,11 +426,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
-<<<<<<< HEAD
     font-size: 100%;
-=======
-    font-size: 1.1rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     color: #ffffff;
     font-family: 'Gotham', sans-serif;
 }

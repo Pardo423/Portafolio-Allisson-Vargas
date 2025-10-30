@@ -38,12 +38,8 @@ a:hover {
     display: flex;
     justify-content: center;
     list-style: none;
-<<<<<<< HEAD
     margin-top: 1%;
 
-=======
-    margin-top: 10px;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 }
 
 .main-header nav ul li {
@@ -52,11 +48,7 @@ a:hover {
 
 .main-header nav ul li a {
     color: #FFCC00;
-<<<<<<< HEAD
     font-size: 110%;
-=======
-    font-size: 1rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -67,7 +59,6 @@ a:hover {
 
 /* Secciones generales */
 .seccion-proyecto {
-<<<<<<< HEAD
     padding-top: 3%;
     text-align: center;
     margin-left: 10%;
@@ -76,30 +67,15 @@ a:hover {
 
 .seccion-proyecto h2 {
     font-size: 200%;
-=======
-    padding-top: 60px;
-    text-align: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-
-.seccion-proyecto h2 {
-    font-size: 2rem;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
     margin-bottom: 20px;
     color: #000000;
 }
 
 .seccion-proyecto p {
-<<<<<<< HEAD
     font-size: 130%;
     color: #000000;
     padding-left: 10%;
     padding-right: 10%;
-=======
-    font-size: 1rem;
-    color: #000000;
->>>>>>> 7e052b7c6383a7d0748b616a02499ba602de1bfd
 
 }
 
