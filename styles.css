@@ -1,0 +1,454 @@
+/* RESET GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Declaración de la fuente GothamBold */
+@font-face {
+    font-family: 'GothamBold',sans-serif;
+    src: url('fonts/GothamBold.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+/* Declaración de la fuente GothamBoldItalic */
+@font-face {
+    font-family: 'GothamBoldItalic';
+    src: url('fonts/GothamBoldItalic.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Declaración de la fuente RalewayRegular */
+@font-face {
+    font-family: 'RalewayRegular';
+    src: url('fonts/RalewayRegular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Usar GothamBold para los títulos */
+h1, h2 {
+    font-family: 'GothamBold', sans-serif;
+}
+
+/* Usar GothamBoldItalic para los títulos */
+.main-title{
+    font-family: 'GothamBoldItalic', sans-serif;
+}
+
+/* Usar RalewayRegular para el cuerpo del texto */
+body, .bio-content, .btn, .ult {
+    font-family: 'RalewayRegular', sans-serif;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    overflow-x: hidden;
+    background-color: #1900ffec; 
+    
+    
+}
+
+/* HEADER */
+.header {
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    align-self: center;
+    
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+    
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 110%;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #333;
+}
+
+/* TÍTULO PRINCIPAL */
+/* Título principal del portafolio */
+.title-container {
+    text-align: center; 
+    padding: 2%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+/* Sombra de texto solo para las palabras "PORTAFOLIO" */
+.portfolio-word {
+    text-shadow: red 13px 0px ; /* Ajusta los valores a tu gusto */
+}
+.main-title {
+    display: flex; 
+    flex-direction: column; /* Los elementos hijos se apilan verticalmente */
+    align-items: center; 
+    line-height: 0.79; 
+    font-size: 600%; /* Ajusta el tamaño del texto según tus necesidades */
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2%; 
+    
+    
+}
+
+.main-title span {
+    display: block; /* Cada palabra PORTAFOLIO será un "bloque" */
+
+    
+}
+
+.sub-title {
+    display: block; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #fff; 
+    padding: 1.5rem 0; 
+    border-radius: 10px; 
+    margin-top: 10%; 
+    width: 200%; 
+}
+
+.scroll-text {
+    display: flex;
+    animation: scroll 15s linear infinite; 
+    overflow: hidden;
+}
+
+.sub-title span {
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    font-family: 'GothamBold', sans-serif; 
+    color: #000000; 
+    margin: 0 1rem;
+}
+
+.sub-title .dot {
+    font-size: 3rem; 
+    color: #1900ffec; 
+    font-weight: bold; 
+    margin: 0 1rem;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 1%;
+}
+
+.hero-image-right {
+    animation: float 3s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.bio-content {
+    overflow:hidden;
+    display: flex;
+}
+
+.bio-content h2 {
+    font-size: 250%;
+    margin-bottom: 1%;
+    display:flex;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.bio-content, .sal {
+    display: flex;
+}
+
+
+.sal:first-of-type {
+    margin-right: 15px;
+    animation: showup 7s infinite;
+}
+
+.sal:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+}
+
+.sal:last-of-type span {
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+/* Contenedor para la bio y el video */
+.ult {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    gap: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: nowrap;
+}
+
+
+.video-container video {
+    width: 105%;
+    height: auto;
+}
+
+
+/* Alineación de bio en la página */
+.bio {
+    
+    font-size: 150%;
+    text-align: center;
+    padding: 3%; 
+}
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    padding: 10%;
+    justify-content: center;
+    margin-top: 0; /* Eliminamos el margen superior */
+    
+}
+
+.project-button {
+    position: relative;
+    width: 100%;
+    min-width: 300px; /* Ajusta este valor según el tamaño que quieras que tengan los botones */
+    min-height: 300px; /* Asegúrate de que los botones tengan un tamaño mínimo */
+    padding-top: 75%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+@media (max-width: 1024px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas para pantallas más pequeñas */
+    }
+    .ult{
+        flex-direction: column;
+    }
+    .main-title {
+        font-size: 300%; /* Ajusta el tamaño del texto según tus necesidades */
+    }
+    .portfolio-word {
+    text-shadow: red 7px 0px ; /* Ajusta los valores a tu gusto */
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        align-items:  center ;
+    }
+    .bio-content{
+        font-size: 120%;
+        padding-left: 40%;
+    }
+    .bio{
+        font-size: 120%;
+    }
+    .hero {
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    font-size: 50%;
+}
+    .hero-image {
+        margin-top: 5%;
+    
+}
+}
+
+
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr; /* 1 columna para pantallas móviles */
+    }
+}
+
+.project-button:hover {
+    transform: scale(1.05);
+}
+
+.project-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.project-button:hover::before {
+    opacity: 1;
+}
+
+.project-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'GothamBold', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.project-button:hover .project-link {
+    opacity: 1;
+}
+
+.pro {
+    text-align: center;
+    margin-top: 3rem; /* Menos espacio superior para que no esté tan alejado de la sección anterior */
+    font-family: 'GothamBold', sans-serif; /* Fuente consistente con el resto */
+    font-size: 3rem; /* Tamaño adecuado para que se vea destacado pero no excesivo */
+    color: #ffffff; /* Color rosa para armonizar con el tema */
+    letter-spacing: 2px; /* Espaciado entre letras para un toque elegante */
+    text-transform: uppercase; /* Para dar énfasis y hacer que se vea más profesional */
+}
+
+/* Sección de contacto */
+.contact {
+    padding: 10%;
+    text-align: center;
+    margin-top: -10%;
+}
+
+.contact h2 {
+    font-size: 250%;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Gotham', sans-serif; /* Tipografía deseada */
+}
+
+.contact p {
+    font-size: 100%;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Gotham', sans-serif;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 100%;
+    color: #ffffff;
+    font-family: 'Gotham', sans-serif;
+}
+
+.contact li strong {
+    margin-right: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.contact li i {
+    font-size: 1.5rem;
+    color: #ffffff; /* Color para el icono */
+    margin-right: 10px;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.contact li a:hover {
+    color: #FF6B6B; /* Color de hover */
+}

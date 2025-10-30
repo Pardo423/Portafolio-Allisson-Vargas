@@ -1,0 +1,111 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gotham', sans-serif; /* Aplica la tipografía deseada */
+    background-color: #384fb5; /* Color de fondo */
+    color: #000000; /* Color de texto */
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff2e9f; /* Cambia el color del enlace al pasar el mouse */
+}
+
+/* Header */
+.main-header {
+    background-color: #ff2e9f;
+    color: #384fb5;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-header h1 {
+    font-size: 3.5rem;
+}
+
+.main-header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1%;
+}
+
+.main-header nav ul li {
+    margin: 0 15px;
+}
+
+.main-header nav ul li a {
+    color: #384fb5;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-header nav ul li a:hover {
+    color: #000000; /* Cambia el color al pasar el mouse */
+}
+
+/* Secciones generales */
+.seccion-proyecto {
+    padding-top: 3%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.seccion-proyecto h2 {
+    font-size: 200%;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.seccion-proyecto p {
+    font-size: 130%;
+    color: #ffffff;
+
+}
+
+/* Galería */
+.galeria-imagenes {
+    display: grid;
+    gap: 16px;
+    background-color: #ff2e9f;
+    padding: 20px;
+}
+
+
+.galeria-imagenes img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; /* Esquinas redondeadas opcional */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra opcional */
+    transition: transform 0.3s ease-out; /* Efecto de zoom suave */
+}
+
+.galeria-imagenes img:hover {
+    transform: scale(0.95); /* Efecto de zoom al pasar el mouse */
+}
+
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
